@@ -1,3 +1,38 @@
-git add .gitignore
-git commit -m "Add .gitignore to exclude unnecessary files"
+# Node.js
+node_modules/         # Dependency folder
+npm-debug.log         # NPM debug log
+yarn-debug.log        # Yarn debug log
+yarn-error.log        # Yarn error log
+
+# Operating System files
+.DS_Store             # macOS folder attributes
+Thumbs.db             # Windows image cache
+Desktop.ini           # Windows system file
+
+# IDEs
+.vscode/              # VSCode folder
+.idea/                # JetBrains IDEs (e.g., IntelliJ, PyCharm)
+*.sublime-project     # Sublime Text project files
+*.sublime-workspace   # Sublime Text workspace files
+
+# Environment variables
+.env                  # Environment variables (e.g., API keys, secrets)
+
+# Log files
+*.log                 # Log files
+
+# Build directories
+/dist/                # Build output directory
+/build/               # Build output directory
+
+# Configuration files (specific to your setup)
+*.config.json         # Example config files
+
+# Miscellaneous
+*.bak                 # Backup files
+*.swp                 # Swap files
+*.swm                 # Swap files
+
+# Ignore specific files or directories outside your project
+# (you can add any additional files that shouldn't be tracked here)
 
